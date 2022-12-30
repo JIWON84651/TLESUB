@@ -1,0 +1,245 @@
+focus_tree = {
+	id = TLE_GER
+	country = {
+		factor = 0
+		modifier = {
+			tag = GER
+		}
+	}
+	default = no
+	focus = {
+		id = end_of_war
+		icon = GFX_end_of_war
+		cost = 10.00
+		x = 9
+		y = 0
+
+	}
+	focus = {
+		id = from_the_rhine
+		icon = GFX_from_the_rhine
+		cost = 10.00
+		prerequisite = {
+			focus = end_of_war
+		}
+		x = 7
+		y = 1
+
+	}
+	focus = {
+		id = along_the_coast_of_Iberia
+		icon = GFX_along_the_coast_of_Iberia
+		cost = 10.00
+		prerequisite = {
+			focus = from_the_rhine
+		}
+		x = 5
+		y = 2
+
+	}
+	focus = {
+		id = abundance_of_gaul
+		icon = GFX_abundance_of_gaul
+		cost = 10.00
+		prerequisite = {
+			focus = from_the_rhine
+		}
+		x = 7
+		y = 2
+
+	}
+	focus = {
+		id = toward_the_atlantic_ocean
+		icon = GFX_toward_the_atlantic_ocean
+		cost = 10.00
+		prerequisite = {
+			focus = abundance_of_gaul
+			focus = along_the_coast_of_Iberia
+		}
+		x = 7
+		y = 3
+
+	}
+	focus = {
+		id = past_Donau
+		icon = GFX_past_Donau
+		cost = 10.00
+		prerequisite = {
+			focus = end_of_war
+		}
+		x = 9
+		y = 1
+
+	}
+	focus = {
+		id = german_mechanical_sounds
+		icon = GFX_german_mechanical_sounds
+		cost = 10.00
+		prerequisite = {
+			focus = past_Donau
+		}
+		x = 9
+		y = 2
+
+	}
+	focus = {
+		id = steel_belt
+		icon = GFX_steel_belt
+		cost = 10.00
+		prerequisite = {
+			focus = german_mechanical_sounds
+		}
+		x = 9
+		y = 3
+
+	}
+	focus = {
+		id = atlantic_trade
+		icon = GFX_atlantic_trade
+		cost = 10.00
+		prerequisite = {
+			focus = steel_belt
+		}
+		prerequisite = {
+			focus = toward_the_atlantic_ocean
+		}
+		x = 8
+		y = 4
+
+	}
+	focus = {
+		id = self_sufficiency
+		icon = GFX_self_sufficiency
+		cost = 10.00
+		prerequisite = {
+			focus = atlantic_trade
+		}
+		x = 6
+		y = 5
+
+	}
+	focus = {
+		id = second_four_year_plan
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = self_sufficiency
+		}
+		x = 4
+		y = 6
+
+	}
+	focus = {
+		id = in_the_east
+		icon = GFX_in_the_east
+		cost = 10.00
+		prerequisite = {
+			focus = end_of_war
+		}
+		x = 11
+		y = 1
+
+	}
+	focus = {
+		id = resources_in_scandinavia
+		icon = GFX_resources_in_scandinavia
+		cost = 10.00
+		prerequisite = {
+			focus = in_the_east
+		}
+		x = 11
+		y = 2
+
+	}
+	focus = {
+		id = wood_of_the_baltic
+		icon = GFX_wood_of_the_baltic
+		cost = 10.00
+		prerequisite = {
+			focus = in_the_east
+		}
+		x = 13
+		y = 2
+
+	}
+	focus = {
+		id = Pearl_of_the_Baltic_Sea
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = resources_in_scandinavia
+			focus = wood_of_the_baltic
+		}
+		x = 11
+		y = 3
+
+	}
+	focus = {
+		id = eastbound_railway
+		icon = GFX_eastbound_railway
+		cost = 10.00
+		prerequisite = {
+			focus = Pearl_of_the_Baltic_Sea
+		}
+		prerequisite = {
+			focus = steel_belt
+		}
+		x = 10
+		y = 4
+
+	}
+	focus = {
+		id = imperial_integration
+		icon = GFX_imperial_integration
+		cost = 10.00
+		prerequisite = {
+			focus = eastbound_railway
+			focus = atlantic_trade
+		}
+		x = 9
+		y = 5
+
+	}
+	focus = {
+		id = oil_flow
+		icon = GFX_oil_flow
+		cost = 10.00
+		prerequisite = {
+			focus = eastbound_railway
+		}
+		x = 12
+		y = 5
+
+	}
+	focus = {
+		id = steel_reich
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = eastbound_railway
+		}
+		prerequisite = {
+			focus = atlantic_trade
+		}
+		prerequisite = {
+			focus = second_four_year_plan
+		}
+		prerequisite = {
+			focus = Breitspurbahn
+		}
+		x = 9
+		y = 7
+
+	}
+	focus = {
+		id = Breitspurbahn
+		icon = GFX_Breitspurbahn
+		cost = 10.00
+		prerequisite = {
+			focus = oil_flow
+		}
+		x = 14
+		y = 6
+
+	}
+}
