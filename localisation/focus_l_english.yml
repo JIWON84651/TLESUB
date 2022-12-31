@@ -1,5 +1,5 @@
 ﻿l_english:
- #focus
+#focus
  end_of_war:0 "전후처리"
  in_the_east:0 "동부까지"
  from_the_rhine:0 "라인강에서부터"
@@ -22,7 +22,7 @@
  Breitspurbahn:0 "광궤철도 실현"
  imperial_integration:0 "새로 뜨는 해"
  
- #tooltip §Y.§!
+#tooltip §Y.§!
  GER_endsieg:0 "§Y독일의 전후처리 중점이 해금될것입니다.§!"
  GER_Breitspurbahn_tt:0 "§Y광궤철도 계획이 해금됩니다.§!"
  GER_new_categories_econ_tt:0 "§Y경제 디시전에 새로운 결정들이 해금됩니다.§!"
@@ -30,22 +30,26 @@
  GER_steel_reich_tt:0 "§Y구질서가 무너지고 새로운 질서가 유럽에 다시금 세워집니다.§!"
  GER_second_four_year_plan_tt:0 "§Y새로운 4개년 계획이 해금됩니다.§!"
  GER_eastbound_railway_tt:0 "§Y광궤철도 계획을 위한 초석이 세워집니다.§!"
+ Breitspurbahn_plan_complete_tt:0 "§Y다음 노선이 해금됩니다.§!"
+ Breitspurbahn_plan_complete_tt_2:0 "§Y노선이 완공됩니다!§!"
 
- #flag
+#flag
  GB_Germany_victory_at_ww2:0 "독일이 2차세계대전에서 승전함"
+ Breitspurbahn_plan_1_flag:0 "파리행 노선이 완공됨"
+ 
  
 #idea
  steel_reich_idea:0 "최후승리"
 
- #opinion modifier
+#opinion modifier
  GER_KOR:0 "추축동맹"
 
- #event
+#event
  tle_ger.1.t:0 "전후처리"
  tle_ger.1.d:0 ""
  tle_ger.1.a:0 ""
 
- #decision
+#decision
  TLE_germany_econ_categories:0 "경제 계획"
  oil_flow_1:0 "합성 석유 발전"
  oil_flow_2:0 "캅카스 유전 개발"
@@ -53,3 +57,18 @@
  self_sufficiency_2:0 "공공 사업 프로젝트"
  private_investment:0 "민간 투자"
  military_investment:0 "군수 투자"
+ second_four_year_plan_1:0 "두번째 4개년 계획"
+ Breitspurbahn_plan_y:0 "§g광궤 철도 계획 보이기§!"
+ Breitspurbahn_plan_n:0 "§g광궤 철도 계획 숨기기§!"
+ Breitspurbahn_plan_1:0 "파리행 노선"
+ Breitspurbahn_plan_2:0 "브레스트행 노선"
+ Breitspurbahn_plan_3:0 "함부르크행 노선"
+ Breitspurbahn_plan_4:0 "라이프치히행 노선"
+ Breitspurbahn_plan_5:0 "뉘른베르크행 노선"
+ Breitspurbahn_plan_6:0 "뮌헨행 노선"
+ Breitspurbahn_plan_7:0 "마르세유행 노선"
+ Breitspurbahn_plan_8:0 "린츠행 노선"
+ Breitspurbahn_plan_9:0 "프라하행 노선"
+ Breitspurbahn_plan_10:0 "빈행 노선"
+ Breitspurbahn_plan_11:0 "브레슬라우행 노선 재정비"
+ 
