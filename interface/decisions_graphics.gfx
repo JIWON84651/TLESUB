@@ -1,0 +1,6 @@
+spriteTypes = {
+	spriteType = {
+		name = "TLE_germany_econ_bg"
+		texturefile = "gfx/interface/decisions/TLE_germany_econ_bg.png"
+	}
+}

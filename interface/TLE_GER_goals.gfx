@@ -71,4 +71,12 @@ spriteTypes = {
 		name = "GFX_self_sufficiency"
 		texturefile = "gfx/interface/goals/self_sufficiency.png"
 	}
+	SpriteType = {
+		name = "GFX_steel_reich"
+		texturefile = "gfx/interface/goals/steel_reich.png"
+	}
+	SpriteType = {
+		name = "GFX_second_four_year_plan"
+		texturefile = "gfx/interface/goals/second_four_year_plan.png"
+	}
 }
