@@ -1,0 +1,4 @@
+GER_TLE_ggr= {
+    color = rgb { 30 30 30 }
+    color_ui = rgb { 0 0 0 }
+}

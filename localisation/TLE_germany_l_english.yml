@@ -1,4 +1,7 @@
 ﻿l_english:
+#country
+ GER_TLE_ggr_fascism:0 "대게르만국"
+
 #focus
  end_of_war:0 "전후처리"
  in_the_east:0 "동부까지"
@@ -57,6 +60,7 @@
  self_sufficiency_2:0 "공공 사업 프로젝트"
  private_investment:0 "민간 투자"
  military_investment:0 "군수 투자"
+ shipyard_investment:0 "조선소 투자"
  second_four_year_plan_1:0 "두번째 4개년 계획"
  Breitspurbahn_plan_y:0 "§g광궤 철도 계획 보이기§!"
  Breitspurbahn_plan_n:0 "§g광궤 철도 계획 숨기기§!"

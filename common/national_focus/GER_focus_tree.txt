@@ -5456,6 +5456,10 @@ focus_tree = {
 			add_ideas = triumphant_will
 			load_focus_tree = TLE_GER
 			custom_effect_tooltip = GER_endsieg
+			swap_ruler_traits = {
+				remove = Portrait_Germany_Adolf_Hitler
+				add = Portrait_Germany_Adolf_Hitler_2
+			}
 		}
 	} 
 
