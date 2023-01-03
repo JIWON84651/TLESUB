@@ -35,6 +35,7 @@
  GER_eastbound_railway_tt:0 "§Y광궤철도 계획을 위한 초석이 세워집니다.§!"
  Breitspurbahn_plan_complete_tt:0 "§Y다음 노선이 해금됩니다.§!"
  Breitspurbahn_plan_complete_tt_2:0 "§Y노선이 완공됩니다!§!"
+ scripted_gui_open_tt_ger_Breitspurbahn:0 " §Y광계철도 계획§!이 표시됩니다"
 
 #flag
  GB_Germany_victory_at_ww2:0 "독일이 2차세계대전에서 승전함"
@@ -54,6 +55,7 @@
 
 #decision
  TLE_germany_econ_categories:0 "경제 계획"
+ TLE_germany_Breitspurbahn_categories:0 "광궤철도 계획"
  oil_flow_1:0 "합성 석유 발전"
  oil_flow_2:0 "캅카스 유전 개발"
  self_sufficiency_1:0 "자급자족 운동"
@@ -75,4 +77,5 @@
  Breitspurbahn_plan_9:0 "프라하행 노선"
  Breitspurbahn_plan_10:0 "빈행 노선"
  Breitspurbahn_plan_11:0 "브레슬라우행 노선 재정비"
+ Breitspurbahn_plan_12:0 "바르샤우행 노선"
  

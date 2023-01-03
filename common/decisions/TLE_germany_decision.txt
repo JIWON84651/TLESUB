@@ -1,6 +1,6 @@
 TLE_germany_econ_categories = {	
-	private_investment = {		
-		icon = GFX_decision_icon_default		
+	private_investment = {
+		icon = GFX_decision_icon_default
 		
 		fire_only_once = no		
 		days_re_enable = 30
@@ -77,7 +77,7 @@ TLE_germany_econ_categories = {
 		}
 	}
 	shipyard_investment = {		
-		icon = GFX_decision_icon_default		
+		icon = GFX_decision_icon_default
 		
 		fire_only_once = no		
 		days_re_enable = 30
@@ -154,7 +154,7 @@ TLE_germany_econ_categories = {
 		}
 	}
 	military_investment = {
-		icon = GFX_decision_icon_default		
+		icon = GFX_decision_icon_default
 		
 		fire_only_once = no		
 		days_re_enable = 30
@@ -230,7 +230,6 @@ TLE_germany_econ_categories = {
 		}
 	}
 	oil_flow_1 = {
-
 		icon = GFX_decision_icon_default		
 		
 		available = {
@@ -318,7 +317,6 @@ TLE_germany_econ_categories = {
 		}
 	}
 	oil_flow_2 = {
-
 		icon = GFX_decision_icon_default		
 		
 		available = {
@@ -350,7 +348,6 @@ TLE_germany_econ_categories = {
 		}
 	}
 	self_sufficiency_1 = {
-
 		icon = GFX_decision_icon_default		
 		
 		available = {
@@ -382,8 +379,7 @@ TLE_germany_econ_categories = {
 			factor = 0			
 		}
 	}
-	self_sufficiency_2 = {		
-
+	self_sufficiency_2 = {
 		icon = GFX_decision_icon_default		
 		
 		available = {
@@ -416,8 +412,7 @@ TLE_germany_econ_categories = {
 			factor = 0			
 		}
 	}
-	second_four_year_plan_1 = {		
-
+	second_four_year_plan_1 = {
 		icon = GFX_decision_icon_default		
 		
 		available = {
@@ -425,11 +420,15 @@ TLE_germany_econ_categories = {
 		}
 
 		modifier = {
-			consumer_goods_factor = -0.03
+			consumer_goods_factor = 0.1
+			production_speed_industrial_complex_factor = 0.15
+			production_speed_arms_factory_factor = 0.15
+			production_oil_factor = 0.1
+			industry_repair_factor = 0.3
 		}
 		
 		fire_only_once = yes
-		days_remove = 60
+		days_remove = 200
 		visible = {
 			has_completed_focus = second_four_year_plan
 		}		
@@ -448,7 +447,9 @@ TLE_germany_econ_categories = {
 			factor = 0			
 		}
 	}
-	Breitspurbahn_plan_y = {		
+}
+TLE_germany_Breitspurbahn_categories = {
+		Breitspurbahn_plan_y = {		
 
 		icon = GFX_decision_icon_default		
 		
@@ -607,6 +608,10 @@ TLE_germany_econ_categories = {
 		}
 
 		remove_effect = {
+			build_railway = {
+				level = 3
+				path = { 6521 3499 11545 3535 }
+			}
 			set_country_flag = Breitspurbahn_plan_4_flag
 			custom_effect_tooltip = Breitspurbahn_plan_complete_tt
 		}
@@ -823,6 +828,40 @@ TLE_germany_econ_categories = {
 
 		modifier = {
 			civilian_factory_use = 3
+		}
+	}
+	Breitspurbahn_plan_12 = { #바르샤우행 노선
+		icon = GFX_decision_icon_default		
+		
+		available = {
+			
+		}
+		
+		fire_only_once = yes
+		days_remove = 80
+		visible = {
+			AND = {
+				has_country_flag = open_Breitspurbahn
+				has_country_flag = Breitspurbahn_plan_11_flag
+			}
+		}		
+
+		cost = 50
+
+		complete_effect = {		
+		}
+
+		remove_effect = {
+			set_country_flag = Breitspurbahn_plan_12_flag
+			build_railway = {
+				level = 3
+				path = { 9570 6512 9511 479 584 11428 9508 9400 3544 }
+			}
+			custom_effect_tooltip = Breitspurbahn_plan_complete_tt
+		}
+
+		modifier = {
+			civilian_factory_use = 8
 		}
 	}
 }

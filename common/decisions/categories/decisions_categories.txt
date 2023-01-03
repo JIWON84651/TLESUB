@@ -4,8 +4,8 @@
 #####################################################################################################################
 TLE_germany_econ_categories = {		#ID of category
 	priority = 9		#Determines the order of display in the decisions tab, the higher the number, the higher it will show up.
-	icon = GFX_category_icon	#Icon to be used for the category, defined in decisions_graphics.gfx or other .gfx file you create
-	picture = TLE_germany_econ_bg
+	icon = GFX_category_icon
+	picture = GFX_ger_econ_plan
 
 	allowed = {
 		always = yes
@@ -13,4 +13,18 @@ TLE_germany_econ_categories = {		#ID of category
 	visible = {	
 		always = yes
 	}
+	scripted_gui = decision_gfx
+}
+TLE_germany_Breitspurbahn_categories = {		
+	priority = 9	
+	icon = GFX_category_icon
+	picture = GFX_ger_Breitspurbahn_background
+
+	allowed = {
+		always = yes
+	}
+	visible = {	
+		has_completed_focus = Breitspurbahn
+	}
+	scripted_gui = TLE_Germany_GUIs_Breitspurbahn
 }
